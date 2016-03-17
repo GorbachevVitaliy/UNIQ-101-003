@@ -1,0 +1,68 @@
+body {
+  width: 700px;
+  height: 17486px;
+  margin: 0 auto;
+  background-image: url(dom_narkomfina_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: red;
+}
+
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+p, li {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 215px;
+  letter-spacing: -1.3px;
+  margin-bottom: 227px;
+}
+
+
+p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.17px;
+  margin-top: 30px;
+}
+
+
+h2 {
+  margin-top: 46px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+
+h2 + p {
+  margin-top: 5px;
+}
+
+
+h3 {
+    font-size: 31px;
+    margin-top: 61.4px;
+    letter-spacing: -0.06px;
+}
+
+
+h3 + p {
+    margin-top: 28.3px;
+}
+
+
+li {
+    font-size: 22px;
+    line-height: 33.9px;
+    letter-spacing: 0.16px;
+}
