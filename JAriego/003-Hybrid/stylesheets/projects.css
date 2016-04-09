@@ -30,10 +30,10 @@
   -webkit-border-radius: 100%;
   -moz-border-radius:    100%;
   border-radius:         100%;
-  }
+}
 
 #projects .circlesWrapper li.current {
-background-color: white;
+  background-color: white;
 }
 
 #projects .projectsWrapper{
@@ -42,7 +42,7 @@ background-color: white;
   display: flex;
 
   width: 300vw;
-  }
+}
 
 #projects .project{
   position: relative;
