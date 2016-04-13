@@ -1,11 +1,13 @@
 body {
   width: 700px;
-  height: 17486px;
+  /*height: 17486px;*/
   margin: 0 auto;
-  background-image: url(dom_narkomfina_bg.jpg);
+  padding-bottom: 100px;
+  /*background-image: url(dom_narkomfina_bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  
+  color: red;*/
+
 }
 
 h1, h2, h3 {
@@ -16,7 +18,7 @@ p, li {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-
+/*
 h1 {
   text-align: center;
   margin-top: 213px;
@@ -57,4 +59,4 @@ li {
   font-size: 22px;
   letter-spacing: 0.16px;
   line-height: 33.5px;
-}
+}*/
