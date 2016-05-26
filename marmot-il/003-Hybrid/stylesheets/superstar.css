@@ -1,0 +1,140 @@
+#superstar {
+  padding: 40px 0;
+
+}
+
+#superstar h2 {
+  width: 500px;
+  height: 89px;
+  margin: 0 auto 50px;
+  background-image: url(../images/logo-superstar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#superstar .cardsWrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+#superstar .profileCard {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition:    all 0.3s ease-out;
+  -ms-transition:     all 0.3s ease-out;
+  -o-transition:      all 0.3s ease-out;
+  transition:         all 0.3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform:     scale(1.1);
+  -webkit-transform:  scale(1.1);
+  -o-transform:       scale(1.1);
+  -ms-transform:      scale(1.1);
+  transform:          scale(1.1);
+}
+
+#superstar .background {
+  height: 100px;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius:      5px 5px 0 0;
+  border-radius:           5px 5px 0 0;
+}
+
+#superstar #danila .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdbe5+0,da3e6b+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(255,219,229,0) 0%, rgba(218,62,107,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,219,229,0) 0%,rgba(218,62,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,219,229,0) 0%,rgba(218,62,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #vadim .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ced4ff+0,525677+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(206,212,255,0) 0%, rgba(82,86,119,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(206,212,255,0) 0%,rgba(82,86,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(206,212,255,0) 0%,rgba(82,86,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ced4ff', endColorstr='#525677',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #anton .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9fffe+0,49a09f+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(201,255,254,0) 0%, rgba(73,160,159,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(201,255,254,0) 0%,rgba(73,160,159,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(201,255,254,0) 0%,rgba(73,160,159,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c9fffe', endColorstr='#49a09f',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar .avatar {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  top: 60px;
+  left: 110px;
+  background-size: cover;
+  border: 2px solid white;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius:      100%;
+  border-radius:           100%;
+}
+
+#superstar #danila .avatar {
+  background-image: url(../images/danila.jpg);
+}
+
+#superstar #vadim .avatar {
+  background-image: url(../images/vadim.jpg);
+}
+
+#superstar #anton .avatar {
+  background-image: url(../images/anton.jpg);
+}
+
+
+#superstar .info {
+  padding: 70px 25px 25px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#superstar h3 {
+  font-size: 20px;
+}
+
+#superstar h4 {
+  min-height: 32px;
+  margin: 10px 0 46px;
+  font-size: 14px;
+}
+
+#superstar p {
+  font-size: 24px;
+}
