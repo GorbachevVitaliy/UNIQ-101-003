@@ -1,0 +1,15 @@
+#vimeo {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/video_bg.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex
+}
+
+#vimeo iframe {
+  margin: auto;
+}
