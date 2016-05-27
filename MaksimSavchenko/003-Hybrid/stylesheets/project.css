@@ -1,0 +1,121 @@
+#projects *{
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#projects {
+  position: relative;
+  overflow:hidden;
+}
+#projects .projectsWraper{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  width: 300vw;
+}
+
+#projects .circlesWraper{
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  bottom: 30px;
+  text-align: center;
+
+}
+
+#projects .circlesWraper li{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border: 1px solid white;
+  cursor: pointer;
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius:    100%;
+  border-radius:         100%;
+
+}
+
+#projects .circlesWraper li.current{
+  background-color: white;
+
+}
+
+#projects .project{
+ position: relative;
+ height: 600px;
+ width: 100vw;
+ background-image: url(../images/hack_exchange.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ color: white;
+
+}
+
+#projects .project:hover {
+  background-size: 105%;
+}
+
+
+#projects .project section{
+  position: relative;
+  z-index: 1;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+#projects .project:hover .overlay{
+  background-color: rgba(70, 0, 130, 0.7);
+}
+
+#projects .project:hover .button{
+  background-color: rgba(190, 255, 0, 0.5);
+  color: rgb(30,40,60);
+}
+
+#projects h2{
+  font-size: 40px;
+
+}
+
+#projects h3{
+  font-size: 20px;
+  margin-top: 5px;
+
+}
+
+#projects p{
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+#projects .button{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  border: 2px solid white;
+  padding: 0 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 40px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+#projects .overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
