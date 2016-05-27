@@ -1,0 +1,63 @@
+menu {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 30px;
+	background-color: black;
+	color: white;
+}
+
+menu #menuIcon {
+	padding: 6px;
+}
+
+menu #menuIcon div {
+	width: 24px;
+	height: 3px;
+	background-color: white;
+}
+
+menu #menuIcon div:nth-child(2) {
+	margin: 4px 0;
+}
+
+
+span {
+	width: 140px;
+	height: 20px;
+	display:inline-block;
+	vertical-align: text-top;
+}
+
+
+menu ul {
+	display: none;
+}
+
+menu a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 8px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.8;
+}
+
+menu:hover {
+	height: 80px;
+	padding-top: 30px;
+	padding-left: 140px;
+}
+menu a:hover {
+	text-decoration: underline;
+}
+
+menu:hover ul {
+	display: block;
+}
+
+menu:hover #menuIcon {
+	display: none;
+}
