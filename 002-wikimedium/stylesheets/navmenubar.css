@@ -1,0 +1,45 @@
+nav {
+  box-sizing: border-box;
+  width: 100vw;
+  position:fixed;
+  height: 36px;
+  top: 0px;
+  left: 0px;
+
+
+  background-color: black;
+  color: white;
+}
+
+nav span {
+  /*position: static;
+  top: 0px;
+  left: 0px;*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 45px;
+  vertical-align: middle;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav #menuIcon div {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+}
+
+nav #menuIcon {
+ padding: 8px;
+}
+
+nav #menuIcon div:nth-child(2) {
+  margin: 6px 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
