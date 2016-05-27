@@ -1,0 +1,33 @@
+.articlePart {
+  padding-top: 40px;
+}
+
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+}
+
+
+nav div {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 3;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
