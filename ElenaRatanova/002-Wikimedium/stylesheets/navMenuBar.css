@@ -1,0 +1,62 @@
+#menuBar {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+#menuIcon {
+  padding: 8px;
+}
+
+#menuIcon div {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+  }
+
+ #menuIcon div:nth-child(2) {
+  margin: 4px 0;
+}
+
+ #menuBar ul {
+  display: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li  {
+  display: inline;
+  text-align: center;
+  margin-right: -2px;
+  margin-bottom: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav:hover {
+  width: 320px;
+  padding: 40px;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+nav:hover #menuIcon {
+  display: none;
+}
