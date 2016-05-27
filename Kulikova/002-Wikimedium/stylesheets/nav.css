@@ -1,0 +1,94 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100vh;
+  background-color: black;
+}
+
+nav #menuIcon {
+  padding: 8px;
+}
+
+nav #menuIcon div  {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+}
+
+nav #menuIcon div:nth-child(2) {
+  margin: 4px 0;
+}
+
+nav ul {
+  display: none;
+}
+
+nav li {
+  margin-bottom: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: steelblue;
+}
+
+nav:hover {
+  box-sizing: border-box;
+  width: 320px;
+  padding: 40px;
+}
+
+nav:hover #menuIcon {
+  display: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+#HorisontalMenu {
+ position: fixed;
+ top: 0;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 60px;
+ text-align: center;
+ background-color: black;
+}
+
+#HorisontalMenu a {
+ color: white;
+ padding: 5px 10px;
+ text-decoration: none;
+}
+
+#HorisontalMenu a:hover {
+ text-decoration: underline;
+}
+
+#HorisontalMenu  ul {
+ display: block;
+ padding-top: 15px;
+}
+
+#menu li {
+ display: inline;
+ font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+}
