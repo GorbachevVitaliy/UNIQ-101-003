@@ -1,0 +1,57 @@
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+nav #menuicon {
+  width: 24px;
+  padding: 8px;
+}
+
+nav #menuicon div {
+  padding: 2px;
+  background-color: white;
+}
+
+nav #menuicon div:nth-child(2) {
+  margin: 4px 0;
+}
+
+nav ul {
+  display: none;
+}
+
+nav li {
+  margin-bottom: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav:hover {
+  width: 320px;
+  padding: 40px;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav:hover #menuicon {
+  display: none;
+}

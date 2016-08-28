@@ -1,0 +1,33 @@
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+nav ul {
+  display: inline;
+  margin-left: 17%;
+}
+
+nav li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50px;
+  display: inline;
+  margin: 2%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
